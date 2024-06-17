@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+header .botaovoltar {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+header h1 {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header .barrapesquisa {
+    display: flex;
+    align-items: center;
+}
+
+header .barrapesquisa input {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+header .barrapesquisa button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.noticias {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+}
+
+.noticias img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-section h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.news-section p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}

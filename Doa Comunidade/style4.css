@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.recsenha {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.secaoesquerda {
+    position: relative;
+    width: 50%;
+    background-image: url('/img/img_fundo_tllogin.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.secaoesquerda .botaovoltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.secaoesquerda .logo {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 50px;
+    height: auto;
+}
+
+.secaoesquerda p {
+    font-size: 24px;
+    max-width: 80%;
+}
+
+.secaodireita {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.secaodireita .rec {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.secaodireita .rec h2 {
+    color: #4caf50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.secaodireita .rec p {
+    margin: 10px 0;
+}
+
+.secaodireita .rec form {
+    display: flex;
+    flex-direction: column;
+}
+
+.secaodireita .rec form label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.secaodireita .rec form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.secaodireita .rec form button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.secaodireita .rec form button:hover {
+    background: #45a049;
+}

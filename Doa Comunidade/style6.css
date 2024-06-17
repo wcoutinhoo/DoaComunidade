@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.botaovoltar {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.barrapesquisa {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    max-width: 300px;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.barrapesquisa input {
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: transparent;
+    flex-grow: 1;
+}
+
+.barrapesquisa button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.barrapesquisa button img {
+    width: 16px;
+    height: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.conteudo {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #4caf50;
+    font-size: 24px;
+}
+
+article p {
+    margin: 10px 0;
+}
